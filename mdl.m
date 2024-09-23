@@ -1,3 +1,4 @@
+%% A simple model to illustrate how the delay due to the compartmental connection can affect the IPSC time course. 
 t = 0 : 0.01 : 100;
 gC = 26.5; Cs = 100; Cd = 40;
 tau = 7.2; gS = gC / Cs; gD = gC / Cd;
